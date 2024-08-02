@@ -1,0 +1,10 @@
+// Create an array of magician names
+var magicians = ['David Copperfield', 'Harry Houdini', 'Penn Jillette', 'Teller'];
+// Define the function to print each magician's name
+function show_magicians(magiciansArray) {
+    magiciansArray.forEach(function (magician) {
+        console.log(magician);
+    });
+}
+// Call the function with the array of magician names
+show_magicians(magicians);
